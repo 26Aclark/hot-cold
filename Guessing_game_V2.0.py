@@ -173,7 +173,7 @@ def user_guessing():
             print(f"Congratulations! You guessed the number!")
             print(win())
             games_won_user1()
-            games_played_user()
+            games_played_user1()
             times_guessed_list.append(times_guessed)
             play_again()
             return " "
